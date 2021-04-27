@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    background-color: black;
+    
+}
+
+h1 {
+    margin-top: 3%;
+    color: lawngreen;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 3em;
+}
+
+.stopwatch {
+    text-align: center;
+    margin: auto;
+    width: 25%;
+    margin-top: 5%;
+    padding: 10px 0px;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 2.5em;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgb(77, 77, 77);
+    color: lawngreen;
+}
+
+.buttons {
+    background-color: slategrey;
+    margin: auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+button {
+    border-radius: 7px;
+    margin-bottom: 5%;
+    padding: 4% 6%;
+    background-color: rgb(77, 77, 77);
+    color: snow;
+}
+
+@media only screen and (max-width: 500px) {
+    .stopwatch {
+        width: 70%;
+        margin-top: 10%;
+    }
+
+    .buttons {
+        width: 80%;
+    }
+
+    h1 {
+        margin-top: 10%;
+
+    }
+}
